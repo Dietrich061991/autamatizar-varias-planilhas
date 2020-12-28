@@ -1,0 +1,5 @@
+Printando o cabecalho da planilha 1 ==================================> ['codigo', 'produto', 'preço', 'pais']
+Printando a coluna que selecionamos na planilha 1 ====================> produto
+Quantidade total de pizza que foi vendida nas duas planilhas =========> 4
+Venda total das 4 pizza vendidas na duas planilhas ==================> 181.0
+Valor media de Pizza vendida se baseando nas duas planilha ===========> 45.25
