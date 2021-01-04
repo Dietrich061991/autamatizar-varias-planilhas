@@ -20,6 +20,10 @@ with open(r"C:\Users\sdietrich\Documents\Data science project\script python auto
         listaTabelas = [tabela[0:-1] for tabela in listaTabelas]
         for tabela in listaTabelas:
             fileHql.write('ALTER TABLE P_BIGD_LZARNG_DB.' + tabela + ' DROP PARTITION (DT_FOTO > 1);')
+            #fileHql.write('ALTER TABLE P_BIGD_LZARNG_DB.' + tabela + ' ADD PARTITION (dt_foto = "20000101");')
+            #fileHql.write("SELECT '" + tabela + "';")
+            #fileHql.write("SHOW PARTITIONS P_BIGD_LZARNG_DB." + tabela + ";")
+            #fileHql.write("SELECT '" + tabela + "', dt_foto from P_BIGD_LZARNG_DB." + tabela + " group by dt_foto;")
             fileHql.write('\n') 
 
 ###############################################################################################################################################################################
